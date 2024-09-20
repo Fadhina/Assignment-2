@@ -1,0 +1,48 @@
+/* body */
+body {
+  background-color: palevioletred;
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+}
+.card {
+  background-color: white;
+  border: 3px solid;
+  border-radius: 50px;
+  width: 550px;
+  margin: 5px auto;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+}
+img {
+  object-fit: cover;
+  object-position: center;
+  width: 100px;
+  border-radius: 50px;
+  border: 3px solid;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+}
+.ears {
+  width: 550px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+.card-content {
+  padding: 30px;
+}
+.card-title {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.card-descriptions {
+  text-align: justify;
+}
+.text-bold {
+  font-weight: bold;
+  text-align: center;
+}
+.cp {
+  color: white;
+  text-align: center;
+}
